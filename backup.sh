@@ -33,4 +33,4 @@ echo "srcdir remove ok!"
 
 #把数据原创传输到服务器指定目录下完成
 rsync -e ssh -av --progress -z --compress-level=9 "$backdir.zip" 123.206.67.116:/mnt/
-echo "rsync upload ok!"
+echo "rsync upload ok!!!"
