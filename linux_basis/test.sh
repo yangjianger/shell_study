@@ -145,6 +145,8 @@ netstat -tunpl | grep 80
 
 wc -l #统计条数
 
+#递归显示文件
+ls -lhR /usr/share/nginx/html/panda >> /var/log/pubdir.log
 
 
 
